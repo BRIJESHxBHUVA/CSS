@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+.collapse{
+    margin-right: 150px;
+    font-size: 18px;
+}
+.cart{
+    height: 45px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart p{
+    color: #ffd97a; 
+    font-size: 18px;
+}
+.cart i{
+    color: #ffd97a;
+    font-size: 22px;
+}
+li .nav-link{
+    font-weight: 15px;
+    color: white;
+}
+.nav-item .nav-link:hover{
+    color: #ffd97a;
+}
+.section1{
+    height: 230px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    height: 740px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section2 .content{
+    height: 625px;
+    width: 63%;
+    /* border: 1px solid white; */
+    background-color: #141516;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form{
+    height: 505px;
+    width: 540px;
+    border: 1px solid white;
+}
+form input{
+    height: 51px;
+    width: 450px;
+    /* border: 1px solid white; */
+    border-radius: 9px;
+}
+.checkbox{
+    height: 15px;
+    width: 15px;
+    margin-left: 50px;
+}
+label{
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 5px;
+}
+form button{
+    height: 50px;
+    width: 455px;
+    border: 1px solid #ffd97a;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #ffd973;
+    color: black;
+    transition: 0.3s;
+}
+form p{
+    color: #ffd97a;
+}
+
+
+
+
+.footer{
+    height: 130px;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: #141516;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .content4{
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content4 p{
+    color: white;
+    font-size: 19px;
+    font-weight: 450;
+}
+
+
+
+@media(max-width: 980px){
+
+    .cart{
+        display: none;
+    }
+    .section1{
+        /* height: auto; */
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .content{
+        height: auto;
+        width: 95%;
+    }
+    .content form{
+        height: auto;
+        width: 100%;
+    }
+    form input{
+        width: 375px;
+    }
+    .checkbox{
+        margin-left: 280px;
+    }
+    form button{
+        width: 375px;
+    }
+    .footer{
+        height: 140px;
+        margin-top: 50px;
+    }
+    .footer .content4{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content4 p{
+        font-size: 15px;
+    }
+    
+
+}
+
+@media(max-width: 1200px){
+
+    .collapse{
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+@media(max-width: 720px){
+
+    .cart{
+        display: none;
+    }
+    .section1{
+        height: auto;
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .content{
+        height: auto;
+        width: 95%;
+    }
+    .content form{
+        height: auto;
+        width: 100%;
+    }
+    form input{
+        width: 375px;
+    }
+    .checkbox{
+        margin-left: 155px;
+    }
+    form button{
+        width: 375px;
+    }
+    .footer{
+        height: 140px;
+        margin-top: 50px;
+    }
+    .footer .content4{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content4 p{
+        font-size: 15px;
+    }
+
+}
+
+
+@media(max-width: 556px){
+
+    .checkbox{
+        margin-left: 75px;
+    }
+
+}
+
+
+
+
+@media(max-width: 480px){
+
+    .cart{
+        display: none;
+    }
+    .section1{
+        height: auto;
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .content{
+        height: auto;
+        width: 95%;
+    }
+    .content form{
+        height: auto;
+        width: 100%;
+    }
+    form input{
+        width: 375px;
+    }
+    form button{
+        width: 375px;
+    }
+    .footer{
+        height: 140px;
+    }
+    .footer .content4{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content4 p{
+        font-size: 15px;
+    }
+
+
+}
