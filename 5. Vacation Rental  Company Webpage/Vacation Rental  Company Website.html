@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vacation Rental Webpage</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		header{
+			height: 610px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			background: url(image/nature.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;	
+
+		}
+		header .header_main{
+			width: 100%;
+			height: 76px;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: center;
+			position: sticky;
+			top: 0;	
+
+		}
+		header .hdr{
+			height: 75px;
+			width: 33.33%;
+/*			border: 1px solid black;*/
+			display: flex;
+			align-items: center;
+		}
+		.hdr nav a{
+			padding-left: 120px;	
+			text-decoration: none;
+			font-size: 18px;
+			color: orange;
+		}
+		.section{
+			width: 100%;
+			height: 200px;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+
+		}
+		.heading{
+			height: 120px;
+			width: 530px;
+/*			border: 1px solid black;*/
+		}
+		.heading .guest{
+			width: 100%;
+			height: 22px;
+/*			border: 1px solid black;*/
+			text-align: center;
+			font-size: 18px;
+			color: white;
+
+
+		}
+		.heading .welcome{
+			height: 96px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			font-size: 70px;
+			text-align: center;
+			padding-top: 20px;
+			color: white;
+		}
+		.paper{
+			height: 826px;
+			width: 982px;
+/*			border: 1px solid black;*/
+/*			display: flex;*/
+			margin-left: 462px;
+			margin-top: -71px; 
+			flex-wrap: wrap;
+
+
+		}
+		.paper .heading_2{
+			height: 150px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			font-size: 35px;
+		}
+		.heading_2 p{
+			padding-top: 50px;
+			color: #868687;
+			background: white;
+		}
+		.paper .line_1{
+			height: 70px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			font-size: 18px;
+			color: #868687;
+			text-align: center;
+		}
+		.paper .pic_bar{
+			height: 270px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+		.paper .pic_bar2{
+			height: 270px;
+			width: 100%;
+/*			border: 1px solid black;*/
+
+		}
+		.pic_bar .pic_name{
+			width: 330px;
+			height: 100%;
+/*			border: 1px solid black;*/
+			font-size: 35px;
+			text-align: center;
+			background: #6aa3a2;	
+		}
+		.pic_name .pic_p{
+			padding-top: 50px;
+			color: white;
+		}
+		.pic_bar .pic_1{
+			width: 646px;
+			height: 100%;
+/*			border: 1px solid black;*/
+		}
+		.pic_bar2{
+			height: 270px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.pic_2{
+			width: 330px;
+			height: 100%;
+/*			border: 1px solid black;*/
+		}
+		.pic_2 img{
+			height: 100%;
+			width: 100%;
+		}
+		.about_bed{
+			width: 648px;
+			height: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			align-items: center;
+			background: whitesmoke;
+		}
+		.about_bed{
+			font-size: 20px;
+		}
+		.about_bed p{
+			padding-left: 40px;
+			font-color: #8a8f9d;
+		}
+		.main_1{
+			height: 279px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.section_2{
+			height: 277px;
+			width: 982px;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.section_2 .image_beach{
+			width: 651px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.image_beach img{
+			width: 100%;
+			height: 100%;
+		}
+		.section_2 .locate{
+
+			width: 329px;
+			height: inherit;
+/*			border: 1px solid black;*/
+			background: #6aa3a2;
+		}
+		.locate h1{
+			padding-top: 110px;
+			color: white;
+			font-size: 35px;
+			letter-spacing: 2px;
+		}
+		.main2{
+			height: 294px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.main2 .peregraph{
+			height: 291px;
+			width: 982px;
+/*			border: 1px solid black;*/
+			font-size: 20px;	
+		}
+		.peregraph p{
+			padding-top: 60px;
+		}
+		.peregraph a{
+			text-decoration: none;
+			color: 	#6aa3a2;
+		}
+		.section_3{
+			height: 362px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.section_3 .main_3{
+			width: 982px;
+			height: 358px;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.main_3 .people{
+			width: 331px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.people img{
+			width: 100%;
+			height: 100%;
+		}
+		.main_3 .about{
+			width: 649px;
+			height: inherit;
+/*			border: 1px solid black;*/
+			background: #6aa3a2;
+		}
+		.about h1{
+			font-size: 35px;
+			padding-left: 50px;
+			color: white;
+		}
+		.about p{
+			font-size: 19px;
+			padding-left: 50px;
+			color: white;
+		}
+		.section_4{
+			height: 165px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.section_4 .main_4{
+			width: 982px;
+			height: 163px;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		.main_4 .contact{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.contact p{
+			padding-top: 50px;
+			font-size: 25px;
+			color: #868686;
+		}
+		.main_4 .follow{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.follow p{
+			padding-top: 50px;
+			font-size: 25px;
+			color: #868686;
+		}
+		.main_4 .update{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.update p{
+			padding-top: 50px;
+			font-size: 25px;
+			color: #868686;
+		}
+		.section_5{
+			width: 100%;
+			height: 165px;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.section_5 .main_5{
+			width: 982px;
+			height: 163px;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		.main_5 .ask{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+			font-size: 18px;
+		}
+		.ask p{
+			margin-top: 50px;
+			color: #868686;
+		}
+		.main_5 .icon{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+		}
+		.icon .ibar{
+			height:25%;
+			width: 160px;
+/*			border: 1px solid black;*/
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			margin-right: 150px;
+		}
+		.ibar .fb{
+			height: 100%;
+			width: 40px;
+/*			border: 1px solid black;*/
+
+		}
+		.fb img{
+			width: 100%;
+			height: 100%;
+		}
+		.ibar .insta{
+			height: 100%;
+			width: 40px;
+/*			border: 1px solid black;*/
+		}
+		.insta img{
+			width: 100%;
+			height: 100%;
+		}
+		.ibar .pin{
+			height: 100%;
+			width: 40px;
+/*			border: 1px solid black;*/
+		}
+		.pin img{
+			width: 100%;
+			height: 100%;
+		}
+		.main_5 .data{
+			width: 321px;
+			height: inherit;
+/*			border: 1px solid black;*/
+		}
+		.data input{
+			width: 315px;
+			height: 35px;
+			margin-top: 60px;
+		}
+		.data button{
+			width: 315px;
+			height: 35px;
+			font-size: 17px;
+			background: #868686;
+			color: whitesmoke;
+			margin-top: 10px;
+		}
+		button:hover{
+			background: whitesmoke;
+			color: #868686;
+			transition: 2s;
+		}
+		footer{
+			width: 100%;
+			height: 150px;
+/*			border: 1px solid black;*/
+			background: whitesmoke;
+		}
+		footer p{
+			padding-top: 50px;
+			font-size: 18px;
+			color: #868686;
+		}
+		footer p a{
+			color: #868686;
+		}	
+	</style>
+</head>
+<body>
+	<header>
+		<div class="header_main">
+		<div class="hdr">
+			<nav><a href="Home">Home</a>
+				<a href="Rio">Rio</a>
+				<a href="Contact">Contact</a></nav>
+				</div>
+				
+
+		</div>
+		<div class="section">
+		<div class="heading">
+			<div class="guest"> <kbd>BE MY GUEST</kbd></div>
+			<div class="welcome">Welcome to Rio</div>
+		</div>
+		</div>
+	</header>
+	<div>
+	<div class="paper">
+		<div class="heading_2"><center><p>A Home in the Heart of the City
+			<br><br><hr width="40" style="border-color: orange; height: 2px;"></p></center></div>
+			<div class="line_1">Stay in a beautiful highrise in Ipanema just off the beach close to many world-class cafes and restaurants.<br> Enjoy Bossa Nova with a cold beer!</div>
+			<div class="pic_bar">
+				<div class="pic_name"><p class="pic_p">Our<br> Apartment<br><br><center><hr width="40" style="border-color: yellow; height: 2px;"></center></p></div>
+				<div class="pic_1">
+					<img src="image/hall.webp">
+				</div>
+			</div>
+			<div class="pic_bar2">
+				<div class="pic_2">
+					<img src="image/bed.webp">
+				</div>
+				<div class="about_bed">
+					<p><center>
+The apartment is spacious with high ceilings, large windows, an open <br>balcony and a beautiful view of the beach. Stay cool with central A/C<br> and wind-down comfortably in the queen sized bedroom.</center></p>
+				</div>
+			</div>
+	</div>
+</div>
+	<div class="main_1">
+	<div class="section_2">
+		<div class="image_beach">
+			<img src="image/beach.jpg">
+		</div>
+		<div class="locate"><center>
+			<h1><kbd>Location</kbd></h1><br><hr width="40" style="height: 2px; border-color:  yellow;">
+		</center>
+		</div>
+	</div>
+</div>
+<div class="main2">
+	<div class="peregraph">
+		<center><p>
+Conveniently located just opposite Leblon Beach in Ipanema, our apartment will <br>sweep you into the charm and excitements of Rio! Dine at one of our <br>neighborhood’s many world-renowned restaurants, enjoy fresh-squeezed juices <br>from one of the colourful stalls along the beach, and don’t miss live bossy-nova <br>show in one of the local bars.</p>
+		<br><br><a href="">VIEW MAP</a></center>
+	</div>
+</div>
+<div class="section_3">
+	<div class="main_3">
+		<div class="people">
+			<img src="image/couple.jpg">
+		</div>
+		<div class="about"><kbd><br><br><br><br>
+			<h1>About Camila & Tiago</h1><br><br><center><hr width="140" style="height: 2px; border-color: yellow;"></center><br><br>
+			<p>Hi, my name is Camila and I’m a nutritionist from the south of Brazil. I moved to the beautiful Ipanema neighborhood two years ago with my husband, Tiago. We live in a homie highrise just off the Leblon Beach, but in the summer we travel!</p></kbd>
+		</div>
+	</div>
+</div>
+<div class="section_4">
+	<div class="main_4">
+		<div class="contact"><p>Contact Us<br><br><hr width="40" style="height: 2px; border-color: yellow;"></p></div>
+		<div class="follow"><p>Follow Us<br><br><hr width="40" style="height: 2px; border-color: yellow;"></p></div>
+		<div class="update"><p>Subscribe for Updates & Offers<br><br><hr width="40" style="height: 2px; border-color: yellow;"></p></div>
+	</div>
+	</div>
+	<div class="section_5">
+		<div class="main_5">
+			<div class="ask">
+				<p>
+
+Ask us anything! We’re here to<br> answer any questions you have. <br><br>Email: info@mysite.com
+			</div>
+			<div class="icon">
+				<div class="ibar">
+				<div class="fb">
+					<a href="https://www.facebook.com/wix" target="_blank"><img src="image/facebook.png"></a>
+				</div>
+				<div class="insta">
+					<a href="https://www.instagram.com/wix/" target="_blank"><img src="image/instagram.png"></a>
+				</div>
+				<div class="pin">
+					<a href="https://www.pinterest.com/wixcom/" target="_blank"><img src="image/pinterest.png"></a>
+				</div>
+				</div>
+				
+			</div>
+			<div class="data">
+				<input type="mail" placeholder="Enter your email here*"><br>
+				<button>Subscribe Now</button>
+			</div>
+		</div>
+	</div>
+	<footer><center><p><kbd>Be my guest in rio Powered and secured by <a href="https://www.wix.com/?utm_campaign=vir_created_with">Wix</a></kbd></p></center></footer>
+</body>
+</html>

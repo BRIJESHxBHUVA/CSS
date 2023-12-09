@@ -1,0 +1,767 @@
+<html>
+	<head>
+		<title>Personal Blog</title>.
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+		<style type="text/css">
+			*{
+					padding: 0;
+					margin: 0;
+					box-sizing: border-box;
+			}
+			.d1{
+					height: 45px;
+					widows: 100%;
+					border: 1px solid black;
+					position: relative;
+					background: black;
+			}
+			.d2{
+					height: 43px;
+					width: 120px;
+					border: 1px solid black;
+					margin-left:160px;
+					margin-top: 0px;	
+			}
+			.srch{
+					text-align: center;
+					margin-top: 10px;
+					color: white;
+			}
+			.fb{
+					height: 23px;
+					width: 23px;
+					border: 1px solid black;
+					position: absolute;
+					margin-left: 1750px;
+					margin-top: -65px;
+
+
+			}
+			.fb2{
+					height: 100%;
+					width: 100%;
+
+			}
+			.insta{
+					height: 23px;
+					width: 23px;
+					/*border: 1px solid black;*/
+					position: absolute;
+					margin-left: 1800px;
+					margin-top: -65px;
+			}
+			.ig{
+					height: 100%;
+					width: 100%;
+			}
+			.twit{
+					height: 23px;
+					width: 23px;
+					/*border: 1px solid black;*/
+					position: absolute;
+					margin-left: 1850px;
+					margin-top: -65px;
+			}
+			.tvtr{
+					height: 100%;
+					width: 100%;
+			}
+			.pin{
+					height: 30px;
+					width: 30px;
+					/*border: 1px solid black;*/
+					position: absolute;
+					margin-left: 1900px;
+					margin-top: -65px;
+			}
+			.pint{
+					height: 100%;
+					width: 100%;
+			}
+			header{
+					height: 78px;
+					width: 100%;
+					/*border: 1px solid black;*/
+			}
+			.text{
+					width: 210px;
+					height: 75px;
+					/*border: 1px solid black;*/
+					margin-left: 150px;
+					position: relative;
+				}
+				.th{
+						text-align: center;
+						margin-top: 25px;
+						font-size: 30px;
+				}
+				nav{
+						width: 350px;
+						height: 73px;
+						display: inline-block;
+						margin-top: -30px;
+						margin-left: 1300px;
+						font-weight: bold;
+				}
+				nav a{
+						padding: 15px;
+						text-decoration: none;
+						color: black;
+						position: relative;
+				}
+				nav a::before{
+					content: "";
+					bottom: 0;
+					left: 0;
+					height: 3px;
+					width: 0;
+					position: absolute;
+					/* color: red; */
+					background-color: red;
+					transition: 0.5s;
+				}
+				nav a:hover::before{
+					height: 3px;
+					width: 100%;
+				}
+				nav a::after{
+					content: "";
+					top: 0;
+					right: 0;
+					height: 3px;
+					width: 0;
+					position: absolute;
+					/* color: red; */
+					background-color: red;
+					transition: 0.5s;
+				}
+				nav a:hover::after{
+					height: 3px;
+					width: 100%;
+				}
+				.photo1{
+						height: 642px;
+						width: 635px;
+						/*border: 1px solid black;*/
+
+
+				}
+				.photo2{
+						height: 642px;
+						width: 630px;
+						/*border: 1px solid black;*/
+						margin-left: 8px;
+						background: url(image/night.jpeg);
+						margin-left: 650px;
+						margin-top: -642px;
+						background-size: cover;
+				}
+				.photo3{
+						height: 642px;
+						width: 635px;
+						/*border: 1px solid black;*/
+						margin-left: 1292px;
+						margin-top: -643px;
+				}
+				.slogn{
+						height: 80px;
+						width: 485px;
+						/*border: 1px solid black;*/
+						margin-left: 720px;
+						margin-top: -50px;
+						background-color: white;
+
+				}
+				.my{
+						text-align: center;
+						margin-top: -65px;
+						font-size: 45px;
+				}
+				.gallery{
+						height: 1544px;
+						width: 100%;
+						/*border: 1px solid black;*/
+						margin-top: 15px;
+				}
+				.card{
+						height: 356px;
+						width: 572px;
+						/*border: 1px solid black;*/
+						margin-top: 60px;
+						margin-left: 315px;
+				}
+				.photo4{
+						width: 269px;
+						height: 356px;
+						/*border: 1px solid black;*/
+				}
+				.pen{
+						height: 100%;
+						width: 100%;
+				}
+				.time{
+						margin-top: -320px;
+						margin-left: 310px;
+						font-size: 15px;
+				}
+				.cardtext{
+						margin-top: 25px;
+						margin-left: 310px;
+						font-size: 25px;
+						
+				}
+				.cardtext:hover{
+						color: #bb5a3a;
+				}
+				.cardline{
+						margin-top: 20px;
+						margin-left: 310px;
+						font-size: 18px;
+				}
+				.cardline:hover{
+						color: #bb5a3a;
+				}
+				.card2{
+						height: 356px;
+						width: 572px;
+						/*border: 1px solid black;*/
+						margin-top: 32px;
+						margin-left: 315px;
+					}
+					.photo5{
+						width: 269px;
+						height: 356px;
+						/*border: 1px solid black;*/
+					}
+					.read{
+							height: 100%;
+							width: 100%;
+					}
+					.time2{
+						margin-top: -320px;
+						margin-left: 310px;
+						font-size: 15px;
+					}
+					.cardtext2{
+						margin-top: 25px;
+						margin-left: 310px;
+						font-size: 25px;
+					}
+					.cardtext2:hover{
+						color: #bb5a3a;
+					}
+					.cardline2{
+						margin-top: 20px;
+						margin-left: 310px;
+						font-size: 18px;
+					}
+					.cardline2:hover{
+						color: #bb5a3a;
+					}
+					.card3{
+						height: 356px;
+						width: 572px;
+						/*border: 1px solid black;*/
+						margin-top: 32px;
+						margin-left: 315px;
+
+					}
+					.photo6{
+						width: 269px;
+						height: 356px;
+						/*border: 1px solid black;*/
+					}
+					.resting{
+							height: 100%;
+							width: 100%;
+					}
+					.time3{
+						margin-left:160px;	
+						text-align: center;
+						margin-top: -320;
+									
+					}
+					.cardtext3{
+						margin-top: 20px;
+						margin-left: 310px;
+						font-size: 25px;	
+					}
+				.cardtext3:hover{
+						color: #bb5a3a;
+					}
+					.cardline3{
+						margin-top: 20px;
+						margin-left: 310px;
+						font-size: 18px;	
+					}
+				.cardline3:hover{ color: #bb5a3a;
+						}
+					.section{
+							width: 697px;
+							height: 1480px;
+							border: 1px solid #fef2f0;
+							margin-left: 1126px;
+							margin-top: -1130px;
+							background-color: #fef2f0;
+					}
+					.intro{
+							height: 462px;
+							width: 386px;
+							/*border: 1px solid black;*/
+							margin-left: 155px;
+							margin-top: 73px;
+							background: #bb5a3a;
+					}
+					.post{
+							font-size: 45px;
+							margin-left: 80px;
+							margin-top: 60px;
+							color: white;
+					}
+					.Eml{
+							margin-left: 60px;
+							margin-top: 80px;
+							font-size: 19px;
+							color: white;
+					}
+					.row{
+							border-top: 0;
+							border-left: 0;
+							border-right: 0;
+							border-bottom: 3px solid white;
+							width: 255px;
+							height: 28px;
+							background: #bb5a3a;
+					}
+					.row:hover{
+							border-bottom: 3px solid black;
+					}
+					button{
+							height: 47px;
+							width: 193px;
+							/*border: 1px solid black;*/
+							margin-top: 25px;
+							margin-left: 97px;							
+					}
+					button:hover{
+							background: black;
+					}
+					.sb{
+							font-size: 18px;
+							color: #bb5a3a;
+					}
+					.sb:hover{
+							color: white;
+					}
+					.linex{
+							height: 90px;
+							width: 697px;
+							/*border: 1px solid black;*/
+					}
+					.find{
+							margin-top: 60px;
+							font-size: 28px;
+							margin-left: 219px;
+					}
+					.gallery2{
+							width: 390px;
+							height: 585px;
+							/*border: 1px solid black;*/
+							margin-left: 155px;
+							margin-top: 123px;
+							
+					}
+					.g1{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+					}
+					.camera{
+							background-size: cover;
+							height: 100%;
+							width: 100%;
+					}
+					.g2{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+							margin-left: 197px;
+							margin-top: -191px;
+					}
+					.dog{
+							background-size: cover;
+							width: 100%;
+							height: 100%;
+					}
+					.g3{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+							margin-top: 6px;
+					}
+					.stand{
+							background-size: cover;
+							width: 100%;
+							height: 100%;
+					}
+					.g4{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+							margin-left: 197px;
+							margin-top: -191px;
+					}
+					.diet{
+							background-size: cover;
+							width: 100%;
+							height: 100%;
+					}
+					.g5{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+							margin-top: 5px;
+					}
+					.pubg{
+							background-size: cover;
+							height: 100%;
+							width: 100%;
+					}
+					.g6{
+							width: 191px;
+							height: 191px;
+							/*border: 1px solid black;*/
+							margin-left: 197px;
+							margin-top: -191px;
+
+					}
+					.sunset{
+							background-size: cover;
+							height: 100%;
+							width: 100%;
+					}
+					.app{
+							width: 697px;
+							height: 100px;
+							/*border: 1px solid black;*/
+							margin-left: -157px;
+							padding: 30px;
+					}
+					.app i{
+							font-size:	35px;
+							margin-left: 40px;
+							padding-top: 40px;
+							/* text-align: center; */
+					}
+					.btn2{
+						width: 135px;
+						height: 47px;
+						/*border: 1px solid black;*/
+						margin-top: -222px;
+						margin-left: 317px;
+						background: #bb5a3a;
+						display: flex;
+						align-items: center;
+						
+					}
+					.btn2:hover{
+							background: black;
+					}
+					.btn2 p{
+							color: white;
+							font-size: 20px;
+							margin-left: 30px;
+					}
+					.about_div{
+							height: 612px;
+							width: 100%;
+							/*border: 1px solid black;*/
+							margin-top: 175px;
+							display: flex;
+							justify-content: center;
+							background: #fef2f0;
+					}
+					.mid_about{
+						width: 737px;
+						height: inherit;
+						/*border: 1px solid black;*/
+						/* display: flex; */
+						
+
+					}
+					.about_title{
+						width: 100%;
+						height: 225px;
+						/*border: 1px solid black;*/
+					}
+					.about_title h1{
+							font-size: 40px;
+							text-align: center;
+							line-height: 225px;
+					}
+					.info{
+						width: inherit;
+						height: 180px;
+						/*border: 1px solid black;*/
+						display: flex;
+					}
+					.info .name{
+						width: 368.5px;
+						height: inherit;
+						/*border: 1px solid black;*/
+					}
+					.name .nem{
+						font-size: 17px;
+					}
+					.name .reader{
+						width: 311px;
+						height: 35px;
+						border-top: none;
+						border-left: none;
+						border-right: none;
+						border-bottom: 1px solid black;
+						background: #fef2f0;
+						
+					}
+					.reader:hover{
+						border-bottom: 3px solid #bb5a3a;
+					}
+					.name .email{
+						font-size: 17px;
+					}
+					.name .mel{
+						width: 311px;
+						height: 35px;
+						border-top: none;
+						border-left: none;
+						border-right: none;
+						border-bottom: 1px solid black;
+						background: #fef2f0;
+					}
+					.mel:hover{
+						border-bottom: 3px solid #bb5a3a;
+					}
+					.info .lastname{
+						width: 368.5px;
+						height: inherit;
+						/*border: 1px solid black;*/
+					}
+					.lastname .last_name{
+						font-size: 17px;
+					}
+					.lastname .reader_2{
+						width: 311px;
+						height: 35px;
+						border-left: none;
+						border-top: none;
+						border-right: none;
+						border-bottom: 1px solid black;
+						background: #fef2f0;
+					}
+					.reader_2:hover{
+						border-bottom: 3px solid #bb5a3a;
+					}
+					.lastname .reader_3{
+						width: 311px;
+						height: 35px;
+						border-top: none;
+						border-left: none;
+						border-right: none;
+						border-bottom: 1px solid black;
+						background: #fef2f0;
+					}
+					.reader_3:hover{
+						border-bottom: 3px solid #bb5a3a;
+					}
+					.lastname .feedback{
+						font-size: 17px;
+
+					}
+
+					.about_btn{
+						width: inherit;
+						height: 110px;
+						/*border: 1px solid black;*/
+						padding-left: 155px;
+
+					}
+					
+					
+					.about_btn button{
+						height: 47px;
+						width: 170px;
+						border: 1px solid black;
+						font-size: 19px; 
+						background: #bb5a3a;
+						color: white;
+					}
+					button:hover{
+						background: black;
+						transition: 1s;
+					}
+					.footer{
+						height: 66px;
+						width: 100%;
+						/*border: 1px solid black;*/
+						background: #bb5a3a;
+						color: white;
+						font-size: 17px;	
+					}
+					.footer a{
+						color: white;
+					}
+					.footer .wix{
+						padding: 16px;
+						
+					}
+					
+
+					
+		</style>
+				
+	</head>
+	<body>
+		<div class="d1">
+			<div class="d2">
+			<p class="srch"><b>Search...</b></p>
+			</div>
+			<div class="app">
+				<div class="fb"><a href="https://www.facebook.com/wix" target="_blank">
+				<img src="image/facebook.png" class="fb2"></a>
+				</div>
+				<div class="insta"><a href="https://www.instagram.com/wix/" target="_blank">
+					<img src="image/instagram.png" class="ig"></a>
+				</div>
+				<div class="twit"><a href="https://twitter.com/wix" target="_blank">
+					<img src="image/twitter.png" class="tvtr"></a>
+				</div>
+				<div class="pin"><a href="https://in.pinterest.com/wixcom/" target="_blank">
+					<img src="image/pinterest.png" class="pint"></a>
+				</div>
+			</div>
+		</div>
+		<header>
+			<div class="text">
+				<p class="th"><b>Turning Heads</b></p>
+				<nav>
+					
+					<a href="">Home</a>
+					<a href="">My Blog</a>
+					<a href="">About</a>
+					<a href="">Contact</a>
+				
+				</nav>
+			</div>
+		</header>
+		<div class="photos">
+			<img src="image/table.jpg" class="photo1">
+			<div class="photo2"></div>
+			<img src="image/flower.jpg" class="photo3">
+			<p class="slogn"><p class="my"><b>My Life My Blog.</b></p></p>
+		</div>
+		<div class="gallery">
+			<div class="card">
+				<div class="photo4">
+					<img src="image/penbox.jpg" class="pen">
+				</div>
+				<p class="time">June 5 . 6:15 pm</p>
+				<p class="cardtext"><b>Transform your<br> winter blues into<br> winter creativity</b></p>
+				<p class="cardline">Create a blog post subtitle that<br> summarizes your post in a few <br>short, punchy sentences <br>and entices your audience to...
+			</div>
+			<div class="card2">
+				<div class="photo5">
+					<img src="image/reading.jpg" class="read">
+				</div>
+				<p class="time2">June 5 . 6:15 pm</p>
+				<p class="cardtext2"><b>5 reasons to wake up <br>at 5am</b></p>
+				<p class="cardline2">Create a blog post subtitle that<br> summarizes your post in a few<br> short, punchy sentences and <br>entices your audience to...
+			</div>
+			<div class="card3">
+				<div class="photo6">
+					<img src="image/cheir.jpg" class="resting">
+				</div>
+				<p class="time3">June 5 . 6:15 pm</p>
+				<p class="cardtext3"><b>How decluttering <br>changed my life</b></p>
+				<p class="cardline3">Create a blog post subtitle that <br>summarizes your post in a few<br> short, punchy sentences and <br>entices your audience to...</p>
+			</div>
+			<div class="section">
+				<div class="intro">
+					<p class="post"><b>Let the posts <br>come to you.</b>
+					</p>
+					<form class="Eml">
+						<label><b><kbd>Email*</kbd></b></label><br><br>
+						<input type="email" required class="row">
+					</form>
+					<button>
+						<p class="sb">Subscribe</p>
+					</button>
+				</div>
+				<div class="linex">
+				<p class="find"><b>Find me on Instagram</b></p>
+				</div>
+				<div class="gallery2">
+					<div class="g1">
+						<img src="image/camera.jpg" class="camera">
+					</div>
+					<div class="g2">
+						<img src="image/dog.jpeg" class="dog">
+					</div>
+					<div class="g3">
+						<img src="image/stand.jpg" class="stand">
+					</div>
+					<div class="g4">
+						<img src="image/diet.jpg" class="diet">
+					</div>
+					<div class="g5">
+						<img src="image/pubg.jpg" class="pubg">
+					</div>
+					<div class="g6">
+						<img src="image/sunset.jpg" class="sunset">
+				</div>
+				<center>
+
+				<div class="app">
+					<i class="ri-facebook-fill"></i>
+					<i class="ri-instagram-line"></i>
+					<i class="ri-twitter-fill"></i>
+					<i class="ri-pinterest-fill"></i>
+				</div></center>
+			</div>
+			
+		</div>
+		<div class="btn2">
+			<p><B><KBD>All Post</KBD></B></p>
+		</div>
+		<!-- ABOUT -->
+		<div class="about_div">
+			<div class="mid_about">
+				<div class="about_title">
+					<h1>Let me know what's on your mind</h1>
+				</div>
+				<div class="info">
+					<div class="name"><br>
+						<KBD><label class="nem">First Name</label><br></KBD>
+						<input type="text" name="" class="reader"><br><br>
+						<kbd><label class="email">Email*</label><br></kbd>
+						<input type="mail" name="" class="mel"><br>
+					</div>
+					
+					<div class="lastname"><br>
+						<kbd><label class="last_name">Last Name</label><br></kbd>
+						<input type="text" name="" class="reader_2"><br><br>
+						<kbd><label class="feedback">Leave us a massage...</label><br></kbd>
+						<input type="text" name="" class="reader_3"> 
+
+					</div>
+				</div>
+				<div class="about_btn">
+					<button class="btn_0"><b>Submit</b></button>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="wix"><center><kbd>© 2035 by Turning Heads. Powered and secured by <a href="https://www.wix.com/?utm_campaign=vir_created_with">Wix</kbd></a>
+			</center></p>
+		</div>
+	</body>
+</html>

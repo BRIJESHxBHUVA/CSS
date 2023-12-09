@@ -1,0 +1,1197 @@
+.header{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url(image/site.jpg);
+    background-size: cover;
+}
+.minihdr{
+    height: 15vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.minihdr .logo{
+    height: inherit;
+    width: 20%;
+    border: 1px solid #FD5521;
+    background-color: #444444;
+}
+.logo h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.logo p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+    color: white;
+}
+.minihdr .menu{
+    height: inherit;
+    width: 50%;
+    border: 1px solid #FD5521;
+    display: flex;
+    align-items: center;
+    background-color: #444444;
+}
+.menu nav a{
+    font-size: 20px;
+    padding-left: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.minihdr .call{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-color: #FD5521;
+}
+.call p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.bighdr{
+    height: 75vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.bighdr h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.bighdr p{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.section1{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #F7F7F7;
+}
+.section1 p{
+    font-size: 30px;
+    text-align: center;
+}
+.section1 h1{
+    font-size: 55px;
+    text-align: center;
+    color: #FD5521;
+}
+.section2{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section2 .sec2abt{
+    height: 70vh;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.sec2abt h1{
+    font-size: 30px;
+}
+.sec2abt p{
+    font-size: 20px;
+}
+.section2 .sec2img{
+    height: 90vh;
+    width: 50%;
+    /* border: 1px solid black; */
+    background: url(image/buildsite.jpg);
+    background-size: cover;
+}
+.section3{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section3 .sec3abt{
+    height: 70vh;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.sec3abt h1{
+    font-size: 30px;
+}
+.sec3abt p{
+    font-size: 20px;
+}
+.section3 .sec3img{
+    height: 90vh;
+    width: 50%;
+    /* border: 1px solid black; */
+    background: url(image/construction.jpg);
+    background-size: cover;
+}
+.section4{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section4 .sec4img{
+    height: 90vh;
+    width: 50%;
+    /* border: 1px solid black; */
+    background: url(image/complex.jpg);
+    background-size: cover;
+}
+.section4 .sec4card{
+    height: 80vh;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec4card .heading{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.heading h1{
+    font-size: 30px;
+}
+.sec4card .img{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background: url(image/house.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec4card .text{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.text p{
+    font-size: 20px;
+}
+.section5{
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background: url(image/meeting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section5 .about{
+    height: 270px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.about h2{
+    font-size: 25px;
+    color: white;
+}
+.about h1{
+    font-size: 40px;
+    color: #FD5521;
+}
+.about p{
+    font-size: 20px;
+    color: white;
+}
+.section5 .number{
+    height: 140px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.number .nmbr{
+    height: inherit;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    position: relative;
+}
+.nmbr .nm1{
+    height: inherit;
+    width: 25%;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    
+}
+.nm1 h1{
+    font-size: 45px;
+    color: white;
+}
+.nmbr .nm2{
+    height: inherit;
+    width: 25%;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.nm2 h1{
+    font-size: 45px;
+    color: white;
+}
+.nmbr .nm3{
+    height: inherit;
+    width: 25%;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.nm3 h1{
+    font-size: 45px;
+    color: white;
+}
+.nmbr .nm4{
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid white; */
+}
+.nm4 h1{
+    font-size: 45px;
+    color: white;
+}
+.section6{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section6 .heading2{
+    height: 240px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.heading2 h2{
+    font-size: 25px;
+}
+.heading2 h1{
+    font-size: 40px;
+    color: #FD5521;
+}
+.heading2 p{
+    font-size: 20px;
+}
+.section6 .icon{
+    height: 250px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icon .icon1{
+    height: 250px;
+    width: 20%;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: #ffffff;
+}
+.icon1 h1{
+    font-size: 40px;
+    padding-top: 30px;
+    color: #585858;
+}
+.section7{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section7 .heading3{
+    height: 260px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.heading3 h2{
+    font-size: 30px;
+}
+.heading3 h1{
+    font-size: 45px;
+    color: #FD5521;
+}
+.heading3 p{
+    font-size: 20px;
+}
+.section7 .gellery{
+    height: 600px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.gellery .gimg{
+    height: inherit;
+    width: 28%;
+    /* border: 1px solid black; */
+    background: url(image/road.jpg);
+    background-size: cover;
+}
+.gellery .gimg2{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid black; */
+    background: url(image/ground.webp);
+    background-size: cover;
+}
+.gellery .gimg3{
+    height: inherit;
+    width: 28%;
+    /* border: 1px solid black; */
+    background: url(image/office.jpg);
+    background-size: cover;
+}
+.section8{
+    height: 660px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section8 .heading4{
+    height: 210px;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.heading4 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.heading4 h1{
+    font-size: 50px;
+    text-align: center;
+    color: #FD5521;
+}
+.section8 .partner{
+    height: 300px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.partner .part1{
+    height: 200px;
+    width: 20%;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.part1 h1{
+    font-size: 45px;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .data{
+    height: inherit;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.data .address{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.address h2{
+    font-size: 29px;
+}
+.address p{
+    font-size: 19px;
+}
+.data .media{
+    height: 300px;
+    width: 30%;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.media h2{
+    font-size: 29px;
+}
+.media p{
+    font-size: 19px;
+}
+.data .quiry{
+    height: 300px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.quiry h2{
+    font-size: 29px;
+}
+.quiry p{
+    font-size: 19px;
+}
+.quiry button{
+    height: 60px;
+    width: 173px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #FD5521;
+}
+@media(max-width:980px){
+.header{
+    height: auto;
+}
+.header .logo{
+    height: auto;
+}
+.logo h1{
+    font-size: 35px;
+}
+.logo p{
+    font-size: 20px;
+}
+.header .minihdr{
+    height: auto;
+}
+.minihdr nav a{
+    font-size: 20px;
+    padding-left: 3px;
+    padding: 10px;
+}
+.minihdr .call{
+    height: auto;
+}
+.call p{
+    font-size: 20px;
+    margin-top: 45px;
+}
+.bighdr{
+    height: auto;
+}
+.bighdr h1{
+    font-size: 55px;
+}
+.bighdr p{
+    font-size: 35px;
+}
+.section1{
+    height: auto;
+}
+.section1 p{
+    font-size: 30px;
+}
+.section1 h1{
+    font-size: 40px;
+}
+.section2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+}
+.section2 .sec2abt{
+    height: auto;
+    width: 49%;
+}
+.sec2abt h1{
+    font-size: 40px;
+}
+.section2 .sec2img{
+    width: 49%;
+}
+.section3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+}
+.section3 .sec3img{
+    width: 49%;
+}
+.section3 .sec3abt{
+    height: auto;
+    width: 49%;
+}
+.sec3abt h1{
+    font-size: 40px;
+}
+.section4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+}
+.section4 .sec4img{
+    width: 49%;
+}
+.section4 .sec4card{
+    height: auto;
+    width: 49%;
+}
+.section5{
+    height: auto;
+}
+.section5 .about{
+    height: auto;
+}
+.about h2{
+    font-size: 30px;
+}
+.about h1{
+    font-size: 45px;
+}
+.about p{
+    font-size: 20px;
+}
+.section5 .number{
+    height: auto;
+}
+.number .nmbr{
+    height: auto;
+    width: 100%;
+}
+.nmbr .nm1 h1{
+    font-size: 40px;
+}
+.nmbr .nm2 h1{
+    font-size: 40px;
+}
+.nmbr .nm3 h1{
+    font-size: 40px;
+}
+.nmbr .nm4 h1{
+    font-size: 40px;
+}
+.section6{
+    height: auto;
+}
+.section6 .heading2{
+    height: auto;
+}
+.heading2 h2{
+    font-size: 30px;
+}
+.heading2 h1{
+    font-size: 40px;
+}
+.heading2 p{
+    font-size: 20px;
+}
+.section6 .icon{
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+}
+.icon .icon1{
+    height: auto;
+    width: 49%;
+}
+.icon1 h1{
+    font-size: 40px;
+}
+.section7{
+    height: auto;
+}
+.section6 .heading3{
+    height: auto;
+}
+.heading3 h2{
+    font-size: 30px;
+}
+.heading3 h1{
+    font-size: 40px;
+}
+.heading3 p{
+    font-size: 20px;
+}
+.section7 .gellery{
+    display: flex;
+    flex-direction: column;
+}
+.gellery .gimg{
+    width: 100%;
+}
+.gellery .gimg2{
+    width: 100%;
+}
+.gellery .gimg3{
+    width: 100%;
+}
+.section8{
+    height: auto;
+}
+.section8 .heading4{
+    height: auto;
+    width: 100%;
+}
+.heading4 h2{
+    font-size: 30px;
+}
+.heading4 h1{
+    font-size: 45px;
+}
+.section8 .partner{
+    height: auto;
+    width: 100%;
+}
+.partner .part1{
+    height: auto;
+    width: 25%;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+}
+.part1 h1{
+    font-size: 25px;
+}
+.footer{
+    height: auto;
+}
+.footer .data{
+    height: auto;
+    width: 100%;
+}
+.data .address{
+    /* height: auto; */
+}
+.address h2{
+    font-size: 30px;
+}
+.address p{
+    font-size: 20px;
+}
+.data .media{
+    /* height: auto; */
+}
+.media h2{
+    font-size: 30px;
+}
+.media p{
+    font-size: 20px;
+}
+.data .quiry{
+    /* height: auto; */
+}
+.quiry h2{
+    font-size: 30px;
+}
+.quiry p{
+    font-size: 20px;
+}
+.quiry button{
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+}
+}
+@media(max-width:720px){
+ .header{
+    height: auto;
+}
+.header .logo{
+    height: auto;
+}
+.logo h1{
+    font-size: 30px;
+}
+.logo p{
+    font-size: 15px;
+}
+.header .minihdr{
+    height: auto;
+}
+.minihdr nav a{
+    font-size: 16px;
+    padding-left: 3px;
+    padding: 5px;
+}
+.minihdr .call{
+    height: auto;
+}
+.call p{
+    font-size: 18px;
+    margin-top: 35px;
+}
+.bighdr{
+    height: auto;
+}
+.bighdr h1{
+    font-size: 45px;
+}
+.bighdr p{
+    font-size: 30px;
+}
+.section1{
+    height: auto;
+}
+.section1 p{
+    font-size: 25px;
+}
+.section1 h1{
+    font-size: 35px;
+}
+.section2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section2 .sec2abt{
+    height: auto;
+    width: 100%;
+}
+.section2 .sec2img{
+    width: 100%;
+}
+.section3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .sec3img{
+    width: 100%;
+}
+.section3 .sec3abt{
+    height: auto;
+    width: 100%;
+}
+.section4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section4 .sec4img{
+    width: 100%;
+}
+.section4 .sec4card{
+    height: auto;
+    width: 100%;
+}
+.section5{
+    height: auto;
+}
+.section5 .about{
+    height: auto;
+}
+.about h2{
+    font-size: 25px;
+}
+.about h1{
+    font-size: 35px;
+}
+.about p{
+    font-size: 18px;
+}
+.section5 .number{
+    height: auto;
+}
+.number .nmbr{
+    height: auto;
+    width: 100%;
+}
+.nmbr .nm1 h1{
+    font-size: 35px;
+}
+.nmbr .nm2 h1{
+    font-size: 35px;
+}
+.nmbr .nm3 h1{
+    font-size: 35px;
+}
+.nmbr .nm4 h1{
+    font-size: 35px;
+}
+.section6{
+    height: auto;
+}
+.section6 .heading2{
+    height: auto;
+}
+.heading2 h1{
+    font-size: 30px;
+}
+.section6 .icon{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.icon .icon1{
+    height: auto;
+    width: 100%;
+}
+.icon1 h1{
+    font-size: 30px;
+}
+.section7{
+    height: auto;
+}
+.section6 .heading3{
+    height: auto;
+}
+.heading3 h2{
+    font-size: 25px;
+}
+.heading3 h1{
+    font-size: 35px;
+}
+.heading3 p{
+    font-size: 18px;
+}
+.section7 .gellery{
+    display: flex;
+    flex-direction: column;
+}
+.gellery .gimg{
+    width: 100%;
+}
+.gellery .gimg2{
+    width: 100%;
+}
+.gellery .gimg3{
+    width: 100%;
+}
+.section8{
+    height: auto;
+}
+.section8 .heading4{
+    height: auto;
+    width: 100%;
+}
+.heading4 h2{
+    font-size: 30px;
+}
+.heading4 h1{
+    font-size: 40px;
+}
+.section8 .partner{
+    height: auto;
+    width: 100%;
+}
+.partner .part1{
+    height: auto;
+    width: 25%;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+}
+.part1 h1{
+    font-size: 25px;
+}
+.footer{
+    height: auto;
+}
+.footer .data{
+    height: auto;
+    width: 100%;
+}
+.data .address{
+    /* height: auto; */
+}
+.address h2{
+    font-size: 25px;
+}
+.address p{
+    font-size: 18px;
+}
+.data .media{
+    /* height: auto; */
+}
+.media h2{
+    font-size: 25px;
+}
+.media p{
+    font-size: 18px;
+}
+.data .quiry{
+    /* height: auto; */
+}
+.quiry h2{
+    font-size: 25px;
+}
+.quiry p{
+    font-size: 18px;
+}
+.quiry button{
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+}
+}
+
+@media(max-width:480px){
+.header{
+    height: auto;
+}
+.header .logo{
+    height: auto;
+}
+.logo h1{
+    font-size: 25px;
+}
+.logo p{
+    font-size: 12px;
+}
+.header .minihdr{
+    height: auto;
+}
+.minihdr nav a{
+    font-size: 12px;
+    padding-left: 2px;
+    padding: 2px;
+}
+.minihdr .call{
+    height: auto;
+}
+.call p{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.bighdr{
+    height: auto;
+}
+.bighdr h1{
+    font-size: 45px;
+}
+.bighdr p{
+    font-size: 30px;
+}
+.section1{
+    height: auto;
+}
+.section1 p{
+    font-size: 20px;
+}
+.section1 h1{
+    font-size: 30px;
+}
+.section2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section2 .sec2abt{
+    height: auto;
+    width: 100%;
+}
+.section2 .sec2img{
+    width: 100%;
+}
+.section3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .sec3img{
+    width: 100%;
+}
+.section3 .sec3abt{
+    height: auto;
+    width: 100%;
+}
+.section4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section4 .sec4img{
+    width: 100%;
+}
+.section4 .sec4card{
+    height: auto;
+    width: 100%;
+}
+.section5{
+    height: auto;
+}
+.section5 .about{
+    height: auto;
+}
+.about h2{
+    font-size: 20px;
+}
+.about h1{
+    font-size: 30px;
+}
+.about p{
+    font-size: 16px;
+}
+.section5 .number{
+    height: auto;
+}
+.number .nmbr{
+    height: auto;
+    width: 100%;
+}
+.nmbr .nm1 h1{
+    font-size: 35px;
+}
+.nmbr .nm2 h1{
+    font-size: 35px;
+}
+.nmbr .nm3 h1{
+    font-size: 35px;
+}
+.nmbr .nm4 h1{
+    font-size: 35px;
+}
+.section6{
+    height: auto;
+}
+.section6 .heading2{
+    height: auto;
+}
+.heading2 h1{
+    font-size: 30px;
+}
+.section6 .icon{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.icon .icon1{
+    height: auto;
+    width: 100%;
+}
+.icon1 h1{
+    font-size: 30px;
+}
+.section7{
+    height: auto;
+}
+.section6 .heading3{
+    height: auto;
+}
+.heading3 h2{
+    font-size: 25px;
+}
+.heading3 h1{
+    font-size: 35px;
+}
+.heading3 p{
+    font-size: 18px;
+}
+.section7 .gellery{
+    display: flex;
+    flex-direction: column;
+}
+.gellery .gimg{
+    width: 100%;
+}
+.gellery .gimg2{
+    width: 100%;
+}
+.gellery .gimg3{
+    width: 100%;
+}
+.section8{
+    height: auto;
+}
+.section8 .heading4{
+    height: auto;
+    width: 100%;
+}
+.heading4 h2{
+    font-size: 25px;
+}
+.heading4 h1{
+    font-size: 32px;
+}
+.section8 .partner{
+    height: auto;
+    width: 100%;
+}
+.partner .part1{
+    height: auto;
+    width: 25%;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+}
+.part1 h1{
+    font-size: 25px;
+}
+.footer{
+    height: auto;
+}
+.footer .data{
+    height: auto;
+    width: 100%;
+}
+.data .address{
+    /* height: auto; */
+}
+.address h2{
+    font-size: 20px;
+}
+.address p{
+    font-size: 15px;
+}
+.data .media{
+    /* height: auto; */
+}
+.media h2{
+    font-size: 20px;
+}
+.media p{
+    font-size: 15px;
+}
+.data .quiry{
+    /* height: auto; */
+}
+.quiry h2{
+    font-size: 20px;
+}
+.quiry p{
+    font-size: 15px;
+}
+.quiry button{
+    height: 30px;
+    width: 130px;
+    font-size: 15px;
+}
+}

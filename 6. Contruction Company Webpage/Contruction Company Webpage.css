@@ -1,0 +1,1035 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #1e2d3b;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background-color: #edcd1f;
+}
+.logo h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.menu{
+    height: 100px;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.menu nav a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(image/construction.jpg);
+    display: flex;
+    align-items: center;
+}
+.section1 h1{
+  padding-left: 650px;
+  font-size: 65px;
+  color: white;
+}
+.section2{
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section2 .heading{
+    height: 180px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.heading h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+}
+.heading hr{
+    margin-left: 900px;
+}
+.paper{
+    height: 60vh;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paper .paper1{
+    height: inherit;
+    width: 32%;
+    /* border: 1px solid black; */
+}
+.paper1 .img{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+.paper1 .text{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+.text h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 45px;
+    color: #3d5975;
+}
+.paper .paper2{
+    height: inherit;
+    width: 32%;
+    /* border: 1px solid black; */
+}
+.paper2 .img2{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+.paper2 .text{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    color: #3d5975;
+}
+.paper .paper3{
+    height: inherit;
+    width: 32%;
+    /* border: 1px solid black; */
+}
+.paper3 .img3{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+}
+.paper3 .text{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    color: #3d5975;
+}
+.section3{
+    height: 680px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.section3 .about{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: whitesmoke;
+}
+.about .blank{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.about .abt{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.abt h1{
+    font-size: 65px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.abt p{
+    font-size: 20px;
+}
+.section3 .abt_img{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.abt_img img{
+    height: 100%;
+    width: 100%;
+}
+.section4{
+    height: 130vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section4 .heading2{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.heading2 h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading2 hr{
+    margin-left: 900px;
+}
+.section4 .imgbar{
+    height: 950px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgbar .sec4img{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.sec4img img{
+    height: 100%;
+    width: 100%;
+}
+.imgbar .sec4img2{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.sec4img2 img{
+    height: 100%;
+    width: 100%;
+}
+.imgbar .sec4img3{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.sec4img3 img{
+    height: 100%;
+    width: 100%;
+}
+.imgbar .sec4img4{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.sec4img4 img{
+    height: 100%;
+    width: 100%;
+}
+.section5{
+    height: 360px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section5 .heading3{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.heading3 h1{
+    font-size: 65px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 20px;
+}
+.heading3 hr{
+    margin-left: 900px;
+}
+.section5 .partner{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.partner h1{
+    word-spacing: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+.section6{
+    height: 585px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.heading4{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.heading4 h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+.heading4 hr{
+    margin-left: 900px;
+}
+.section6 .map{
+    height: 360px;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.section7{
+    height: 720px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.section7 .data{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.data .blank2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.data .info{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.info h1{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.info p{
+    font-size: 20px;
+}
+.info h2{
+    font-size: 35px;
+}
+.section7 .detail{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.detail .address{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.address h1{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.address p{
+    font-size: 20px;
+}
+.address h2{
+    font-size: 35px;
+}
+.detail .blank3{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+   
+}
+input{
+    height: 28px;
+    width: 420px;
+    background-color: whitesmoke;
+   
+}
+button{
+    height: 40px;
+    width: 150px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    margin-left: 150px;
+    background-color: #3b3a3a;
+    color: #edcd1f;
+}
+button:hover{
+    background-color: #edcd1f;
+    color: #3b3a3a;
+    transition: 1s;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 25px;
+}
+footer a{
+    color: black;
+}
+@media(max-width:980px){
+    .header{
+        height: auto;
+        width: auto;
+    }
+    .header .logo{
+        height: auto;
+        width: 30%;
+    }
+    .header .menu{
+        height: auto;
+        width: 60%;
+    }
+    .header .logo h1{
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+  .menu nav a{
+        font-size: 16px;
+        padding: 15px;
+    }
+    .section1{
+        height: 300px;
+        background-size: cover;
+    }
+    .section1 h1{
+        font-size: 30px;
+        padding-left: 150px;
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .heading{
+        height: auto;
+    }
+    .heading h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .heading hr{
+        margin-left: 300px;
+    }
+    .paper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .paper .paper1{
+        height: 500px;
+        width: 50%;
+    }
+    .paper1 .text h1{
+        font-size: 30px;
+       
+    }
+    .paper .paper2{
+        height: 500px;
+        width: 50%;
+    }
+    .paper2 .text h1{
+        font-size: 30px;
+      
+    }
+    .paper .paper3{
+        height: 500px;
+        width: 100%;
+    }
+    .paper3 .text h1{
+        font-size: 30px;
+    }
+    .section3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 .about{
+        height: auto;
+        width: 100%;
+       
+    }
+    .about .blank{
+        height: auto;
+        width: 10%;
+    }
+    .about .abt{
+        height: auto;
+    }
+    .abt h1{
+        font-size: 40px;
+    }
+    .abt p{
+        font-size: 20px;
+    }
+    .section3 .abt_img{
+        height: auto;
+        width: 100%;
+    }
+    .section4{
+        height: auto;
+        width: 100%;
+    }
+    .section4 .heading2{
+        height: auto;
+    }
+    .heading2 h1{
+        font-size: 40px;
+    }
+    .heading2 hr{
+        margin-left: 300px;
+    }
+        .section4 .imgbar{
+        height: auto;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .imgbar .sec4img{
+        height: 230px;
+        width: 50%;
+
+    }
+    .imgbar .sec4img2{
+        height: 230px;
+        width: 50%;
+    }
+    .imgbar .sec4img3{
+        height: 230px;
+        width: 50%;
+    }
+    .imgbar .sec4img4{
+        height: 230px;
+        width: 50%;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .heading3{
+        height: auto;
+    }
+    .heading3 h1{
+        font-size: 40px;
+    }
+    .heading3 hr{
+        margin-left: 300px;
+    }
+    .section5 .partner{
+        height: auto;
+    }
+    .partner h1{
+        font-size: 25px;
+        word-spacing: 15px;
+    }
+    .section6{
+        height: auto;
+    }
+    .section6 .heading4{
+        height: auto;
+    }
+    .heading4 h1{
+        font-size: 40px;
+    }
+    .heading4 hr{
+        margin-left: 300px;
+    }
+    .section6 .map{
+        margin-right: 640px;
+    }
+    .section7{
+        height: auto;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .section7 .data{
+        height: auto;
+        width: 50%;
+    }
+    .data .info input{
+        width: 350px;
+    }
+    .data .blank2{
+        height: auto;
+        width: 0%;
+    }
+    .data .detail{
+        height: auto;
+        width: 50%;
+    }
+    .detail .blank3{
+        height: auto;
+        width: 0%;
+    }
+    .detail .address{
+        height: auto;
+        width: 100%;
+       
+    }
+    .address h1{
+        font-size: 25px;
+    }
+    .address h2{
+        font-size: 25px;
+    }
+    footer{
+        height: auto;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+} 
+@media(max-width:720px){
+    .header{
+        height: auto;
+        width: auto;
+    }
+    .header .logo{
+        height: auto;
+        width: 30%;
+    }
+    .header .menu{
+        height: auto;
+        width: 60%;
+    }
+    .header .logo h1{
+        font-size: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+  .menu nav a{
+        font-size: 16px;
+        padding: 4px;
+    }
+    .section1{
+        height: 200px;
+        background-size: cover;
+    }
+    .section1 h1{
+        font-size: 25px;
+        padding-left: 150px;
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .heading{
+        height: auto;
+    }
+    .heading h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .heading hr{
+        margin-left: 300px;
+    }
+    .paper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .paper .paper1{
+        height: auto;
+        width: 100%;
+    }
+    .paper1 .text h1{
+        font-size: 30px;
+       
+    }
+    .paper .paper2{
+        height: auto;
+        width: 100%;
+    }
+    .paper2 .text h1{
+        font-size: 30px;
+      
+    }
+    .paper .paper3{
+        height: auto;
+        width: 100%;
+    }
+    .paper3 .text h1{
+        font-size: 30px;
+    }
+    .section3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 .about{
+        height: auto;
+        width: 100%;
+       
+    }
+    .about .blank{
+        height: auto;
+        width: 10%;
+    }
+    .about .abt{
+        height: auto;
+    }
+    .abt h1{
+        font-size: 40px;
+    }
+    .abt p{
+        font-size: 18px;
+    }
+    .section3 .abt_img{
+        height: auto;
+        width: 100%;
+    }
+    .section4{
+        height: auto;
+        width: 100%;
+    }
+    .section4 .heading2{
+        height: auto;
+    }
+    .heading2 h1{
+        font-size: 35px;
+    }
+    .heading2 hr{
+        margin-left: 300px;
+    }
+    .section4 .imgbar{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .imgbar .sec4img{
+        height: 230px;
+        width: 100%;
+
+    }
+    .imgbar .sec4img2{
+        height: 230px;
+        width: 100%;
+    }
+    .imgbar .sec4img3{
+        height: 230px;
+        width: 100%;
+    }
+    .imgbar .sec4img4{
+        height: 230px;
+        width: 100%;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .heading3{
+        height: auto;
+    }
+    .heading3 h1{
+        font-size: 35px;
+    }
+    .heading3 hr{
+        margin-left: 300px;
+    }
+    .section5 .partner{
+        height: auto;
+    }
+    .partner h1{
+        font-size: 20px;
+        word-spacing: 15px;
+    }
+    .section6{
+        height: auto;
+    }
+    .section6 .heading4{
+        height: auto;
+    }
+    .heading4 h1{
+        font-size: 35px;
+    }
+    .heading4 hr{
+        margin-left: 300px;
+    }
+    .section6 .map{
+        margin-right: 640px;
+    }
+    .section7{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section7 .data{
+        height: auto;
+        width: 100%;
+    }
+    .data .blank2{
+        height: auto;
+        width: 10%;
+    }
+    .data .detail{
+        height: auto;
+        width: 100%;
+    }
+    .detail .blank3{
+        height: auto;
+        width: 0%;
+    }
+    .detail .address{
+        height: auto;
+        width: 100%;
+       
+    }
+    .address h1{
+        font-size: 25px;
+    }
+    .address h2{
+        font-size: 25px;
+    }
+    footer{
+        height: auto;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+}
+@media(max-width:480px){
+    .header{
+        height: auto;
+        width: auto;
+    }
+    .header .logo{
+        height: auto;
+        width: 32%;
+    }
+    .header .menu{
+        height: auto;
+        width: 60%;
+    }
+    .header .logo h1{
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+  .menu nav a{
+        font-size: 16px;
+        padding: 4px;
+    }
+    .section1{
+        height: 200px;
+        background-size: cover;
+    }
+    .section1 h1{
+        font-size: 18px;
+        padding-left: 150px;
+    }
+    .section2{
+        height: auto;
+    }
+    .section2 .heading{
+        height: auto;
+    }
+    .heading h1{
+        font-size: 35px;
+    }
+    .heading hr{
+        margin-left: 180px;
+    }
+    .paper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .paper .paper1{
+        height: auto;
+        width: 100%;
+    }
+    .paper1 .text h1{
+        font-size: 30px;
+    }
+    .paper .paper2{
+        height: auto;
+        width: 100%;
+    }
+    .paper2 .text h1{
+        font-size: 30px;
+    }
+    .paper .paper3{
+        height: auto;
+        width: 100%;
+    }
+    .paper3 .text h1{
+        font-size: 30px;
+    }
+    .section3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 .about{
+        height: auto;
+        width: 100%;
+       
+    }
+    .about .blank{
+        height: auto;
+        width: 10%;
+    }
+    .about .abt{
+        height: auto;
+    }
+    .abt h1{
+        font-size: 40px;
+    }
+    .abt p{
+        font-size: 18px;
+    }
+    .section3 .abt_img{
+        height: auto;
+        width: 100%;
+    }
+    .section4{
+        height: auto;
+        width: 100%;
+    }
+    .section4 .heading2{
+        height: auto;
+    }
+    .heading2 h1{
+        font-size: 35px;
+    }
+    .heading2 hr{
+        margin-left: 180px;
+    }
+    .sec4img4 .imgbar{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgbar .sec4img{
+        height: 230px;
+        width: 100%;
+    }
+    .imgbar .sec4img2{
+        height: 230px;
+        width: 100%;
+    }
+    .imgbar .sec4img3{
+        height: 230px;
+        width: 100%;
+    }
+    .imgbar .sec4img4{
+        height: 230px;
+        width: 100%;
+    }
+    .section5{
+        height: auto;
+        width: 100%;
+    }
+    .section5 .heading3{
+        height: auto;
+    }
+    .heading3 h1{
+        font-size: 35px;
+    }
+    .heading3 hr{
+        margin-left: 180px;
+    }
+    .section5 .partner{
+        height: auto;
+    }
+    .partner h1{
+        font-size: 20px;
+        word-spacing: 15px;
+    }
+    .section6{
+        height: auto;
+    }
+    .section6 .heading4{
+        height: auto;
+    }
+    .heading4 h1{
+        font-size: 35px;
+    }
+    .heading4 hr{
+        margin-left: 180px;
+    }
+    .section6 .map{
+        margin-right: 640px;
+    }
+    .section7{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section7 .data{
+        height: auto;
+        width: 100%;
+    }
+    .data .blank2{
+        height: auto;
+        width: 10%;
+    }
+    .data .detail{
+        height: auto;
+        width: 100%;
+    }
+    .detail .blank3{
+        height: auto;
+        width: 0%;
+    }
+    .detail .address{
+        height: auto;
+        width: 100%;
+        margin-left: 150px;
+       
+    }
+    .address h1{
+        font-size: 25px;
+    }
+    .address h2{
+        font-size: 25px;
+    }
+    footer{
+        height: auto;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+}
